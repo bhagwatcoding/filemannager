@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^favicon.ico favicon.ico [L]
+RewriteRule ^robots.txt robots.txt [L]
+#RewriteRule ^(.*)$ index.php?URL=$1 [QSA,L]
